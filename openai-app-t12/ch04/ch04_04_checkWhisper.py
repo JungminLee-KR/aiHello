@@ -7,7 +7,7 @@ load_dotenv("../../_apikeys.env")
 api_key = os.getenv("Doogie.2ndKey")
 openAIClient = OpenAI(api_key=api_key)
 
-speech_src_file = open("speech_out.mp3","rb")
+speech_src_file = open("speech_sample_02.mp3","rb")
 
 tranScriptString = openAIClient.audio.transcriptions.create(
     model="whisper-1",
