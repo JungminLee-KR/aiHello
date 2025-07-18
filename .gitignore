@@ -1,8 +1,10 @@
-# apikey
+### JOE
+### apikey & some file formats
 _*.env
 *.wav
 *.mp3
 *.plaintext
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
