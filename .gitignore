@@ -5,7 +5,7 @@ _*.env
 *.mp3
 *.plaintext
 .DS_Store
-openai-app-t12/ch06/my_chroma_db*
+openai-app-t12/localdb
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
